@@ -89,22 +89,8 @@ st.title("Roll Dice🎲")
 if st.button("Roll Dice"):
     st.write(f"You rolled: {random.randint(1, 10)}")
 
-from streamlit_drawable_canvas import st_canvas
-import streamlit as st
 
-st.title("🎨 Drawing Canvas")
-
-canvas_result = st_canvas(
-    fill_color="rgba(255, 165, 0, 0.3)",
-    stroke_width=5,
-    background_color="#eee",
-    height=300,
-    drawing_mode="freedraw",
-)
-
-if canvas_result.image_data is not None:
-    st.image(canvas_result.image_data)
-
+st.header("Have u play all Tasks??")
 
 if st.button("yes"):
     st.success("Welldone! Thanks Foe Visting🥳🥳")
