@@ -1,7 +1,6 @@
 import streamlit as st
 import random
-
-
+st.image("icons8-snake-48.ico",width=100)
 
 st.title("🐍 Welcome to Arsh Web")
 st.header("""First
